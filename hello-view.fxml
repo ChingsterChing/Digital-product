@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="872.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.HelloController">
+   <children>
+      <Button fx:id="howToButton" layoutX="370.0" layoutY="169.0" mnemonicParsing="false" onAction="#howToButton1" prefHeight="51.0" prefWidth="134.0" text="How to">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="aboutUsButton" layoutX="370.0" layoutY="220.0" mnemonicParsing="false" onAction="#aboutUsButton1" text="About us">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="settingsButton" layoutX="370.0" layoutY="271.0" mnemonicParsing="false" onAction="#settingsButton1" prefHeight="51.0" prefWidth="134.0" text="Settings">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="28.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButton1" opacity="0.0" text="Back" />
+      <Button fx:id="paperButton" layoutX="39.0" layoutY="446.0" mnemonicParsing="false" onAction="#paperButton1" opacity="0.0" prefHeight="40.0" prefWidth="158.0" text="Paper">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="plasticButton" layoutX="197.0" layoutY="446.0" mnemonicParsing="false" onAction="#plasticButton1" opacity="0.0" prefHeight="40.0" prefWidth="158.0" text="Plastic">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="glassAndMetalButton" layoutX="671.0" layoutY="446.0" mnemonicParsing="false" onAction="#glassAndMetalButton1" opacity="0.0" text="Glass and metal">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="foodButton" layoutX="355.0" layoutY="446.0" mnemonicParsing="false" onAction="#foodButton1" opacity="0.0" prefHeight="40.0" prefWidth="158.0" text="Food">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="residualWasteButton" layoutX="513.0" layoutY="446.0" mnemonicParsing="false" onAction="#residualWasteButton" opacity="0.0" prefHeight="40.0" prefWidth="158.0" text="Residual waste">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="howTolbl1" layoutX="96.0" layoutY="322.0" opacity="0.0" text="To use you simply hold your waste in front of the camera, and a LED light will light up.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="howTolbl2" layoutX="185.0" layoutY="349.0" opacity="0.0" text="Proceed to throw your waste in the bin with the lit up LED light.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="aboutUslbl1" layoutX="99.0" layoutY="322.0" opacity="0.0" text="We are SmartSort, a company trying to achieve a goal through the product SmartBin.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="aboutUslbl2" layoutX="206.0" layoutY="349.0" opacity="0.0" text="Our goal is to make a positive impact on the enviroment. ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="settingslbl" layoutX="19.0" layoutY="322.0" opacity="0.0" text="The order of bins is from left to right. Click the order of type of waste you want. Finish by pressing &quot;back&quot;.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="331.0" layoutY="40.0" text="SmartSort">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
